@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Desain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Selamat datang di Portofolio Saya</h1>
+    <p>Desain kreatif Yang Memukau</p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portofolio</h2>
+
+    <!-- Filter kategori -->
+    <div class="portfolio-filters">
+      <button class="filter-btn" onclick="filterPortfolio('all')">Semua</button>
+      <button class="filter-btn" onclick="filterPortfolio('business-card')">Kartu Nama</button>
+      <button class="filter-btn" onclick="filterPortfolio('id-card')">ID Card & Lanyard</button>
+      <button class="filter-btn" onclick="filterPortfolio('logo')">Logo</button>
+      <button class="filter-btn" onclick="filterPortfolio('sertifikat')">Sertifikat</button>
+      <button class="filter-btn" onclick="filterPortfolio('banner')">Banner</button>
+      <button class="filter-btn" onclick="filterPortfolio('lainlain')">Lain lain</button>
+    </div>
+
+    <div class="gallery">
+      <div class="portfolio-item business-card">
+        <img src="images/KN 1.jpg" alt="Desain Kartu Nama 1">
+        <p>Kartu Nama 1</p>
+      </div>
+      <div class="portfolio-item business-card">
+        <img src="images/kn 2.jpg" alt="Desain Kartu Nama 1">
+        <p>Kartu Nama 2</p>
+      </div>
+      <div class="portfolio-item business-card">
+        <img src="images/kn3.jpg" alt="Desain Kartu Nama 1">
+        <p>Kartu Nama 3</p>
+      </div>
+      <div class="portfolio-item business-card">
+        <img src="images/kn 5.jpg" alt="Desain Kartu Nama 1">
+        <p>Kartu Nama 4</p>
+      </div>
+      <div class="portfolio-item id-card">
+        <img src="images/arrahman.jpg" alt="Desain ID Card 1">
+        <p>Lanyard 1</p>
+      </div>
+      <div class="portfolio-item id-card">
+        <img src="images/umkm.jpg" alt="Desain ID Card 1">
+        <p>Lanyard 2</p>
+      </div>
+      <div class="portfolio-item id-card">
+        <img src="images/Asap.jpg" alt="Desain ID Card 1">
+        <p>ID Card 1</p>
+      </div>
+      <div class="portfolio-item id-card">
+        <img src="images/umi.jpg" alt="Desain ID Card 1">
+        <p>ID Card 2</p>
+      </div>
+      <div class="portfolio-item logo">
+        <img src="images/logo 1.jpg" alt="Desain Logo 1">
+        <p>Logo 1</p>
+      </div>
+      <div class="portfolio-item logo">
+        <img src="images/logo 2.jpg" alt="Desain Logo 1">
+        <p>Logo 2</p>
+      </div>
+      <div class="portfolio-item logo">
+        <img src="images/logo3.jpg" alt="Desain Logo 1">
+        <p>Logo 1</p>
+      </div>
+      <div class="portfolio-item logo">
+        <img src="images/logo 4.jpg" alt="Desain Logo 1">
+        <p>Logo 1</p>
+      </div>
+      <div class="portfolio-item sertifikat">
+        <img src="images/sertif 1.jpg" alt="Desain Sertifikat 1">
+        <p>Sertifikat 1</p>
+      </div>
+      <div class="portfolio-item sertifikat">
+        <img src="images/sertif 2.jpg" alt="Desain Sertifikat 1">
+        <p>Sertifikat 2</p>
+      </div>
+      <div class="portfolio-item sertifikat">
+        <img src="images/sertif 3.jpg" alt="Desain Sertifikat 1">
+        <p>Sertifikat 3</p>
+      </div>
+      <div class="portfolio-item sertifikat">
+        <img src="images/sertif 4.jpg" alt="Desain Sertifikat 1">
+        <p>Sertifikat 4</p>
+      </div>
+      <div class="portfolio-item banner">
+        <img src="images/Banner 1.jpg" alt="Desain Banner 1">
+        <p>Banner 1</p>
+      </div>
+      <div class="portfolio-item banner">
+        <img src="images/banner 2.jpg" alt="Desain Banner 1">
+        <p>Banner 2</p>
+      </div>
+      <div class="portfolio-item banner">
+        <img src="images/banner 3.jpg" alt="Desain Banner 1">
+        <p>Banner 3</p>
+      </div>
+      <div class="portfolio-item banner">
+        <img src="images/banner 4.jpg" alt="Desain Banner 1">
+        <p>Banner 4</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/DLL 1.jpg" alt="Desain 1">
+        <p>Stiker Kemasan Botol</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/dll3.jpg" alt="Desain 1">
+        <p>Brosur</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/dll2.jpg" alt="Desain 1">
+        <p>Karikatur</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/dll4.jpg" alt="Desain 1">
+        <p>Event Desk</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/kaos 1.jpg" alt="Desain 1">
+        <p>Kaos 1</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/kaos 2.jpg" alt="Desain 1">
+        <p>Kaos 2</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/km 1.jpg" alt="Desain 1">
+        <p>Kemeja Kerja 1</p>
+      </div>
+      <div class="portfolio-item lainlain">
+        <img src="images/km2.jpg" alt="Desain 1">
+        <p>Kemeja Kerja 2</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <div class="about-content">
+      <img src="images/photo.jpg" alt="Foto Saya" class="profile-photo">
+      <div class="about-text">
+        <p>Halo, saya Epri Liyanto. Saya seorang desainer grafis dengan pengalaman dalam menciptakan desain kreatif yang sesuai dengan kebutuhan klien. Saya senang bekerja dengan berbagai proyek desain dan selalu berusaha memberikan hasil terbaik.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+        <p>Email: epriliyanto001@gmail.com</p>
+        <p>Instagram: @epri05_</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 epriliyanto. Semua hak cipta dilindungi.</p>
+  </footer>
+
+  <script>
+    function filterPortfolio(category) {
+      let items = document.querySelectorAll('.portfolio-item');
+      if (category === 'all') {
+        items.forEach(item => item.style.display = 'block');
+      } else {
+        items.forEach(item => {
+          if (item.classList.contains(category)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
